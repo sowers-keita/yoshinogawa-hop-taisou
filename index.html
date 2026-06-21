@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="apple-touch-icon" href="logo.png" />
 <title>吉野川市の子ども体操教室｜吉野川ホップ体操教室｜幼稚園〜小学生・無料体験</title>
 <meta name="description" content="徳島県吉野川市の幼稚園・小学生向け体操教室。エアトランポリンマットを使って、跳び箱・前回り・側転・バク転などに安全に挑戦できます。吉野川市交流センター（川島町）で毎週金曜開催。石井・神山・板野・阿波・美馬エリア。初心者・運動が苦手でも大歓迎、無料体験受付中！" />
 <meta name="keywords" content="吉野川 体操教室,吉野川市 体操,川島町 体操,幼稚園 体操,小学生 体操,エアトランポリン,バク転,跳び箱,無料体験,徳島 体操教室,鴨島,石井" />
@@ -87,8 +89,9 @@
   header{position:sticky;top:0;z-index:50;background:rgba(255,253,248,.85);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid rgba(38,49,58,.06)}
   .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
   .brand{display:flex;align-items:center;gap:10px;font-family:"M PLUS Rounded 1c";font-weight:800;font-size:1.1rem}
-  .logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;color:#fff;font-size:1.2rem;
-    background:linear-gradient(135deg,var(--green),var(--pink) 55%,var(--orange));box-shadow:var(--ring)}
+  .logo{width:42px;height:42px;border-radius:0;object-fit:contain;display:block;flex:0 0 auto;background:none;box-shadow:none}
+  .hero-logo{width:clamp(92px,17vw,148px);height:auto;display:block;margin:0 0 16px}
+  @media(max-width:760px){.hero-logo{margin-left:auto;margin-right:auto}}
   .nav-links{display:flex;gap:20px;align-items:center}
   .nav-links a{font-weight:500;color:var(--muted);font-size:.95rem}
   .nav-links a:hover{color:var(--ink)}
@@ -224,7 +227,7 @@
 
 <header>
   <div class="wrap nav">
-    <div class="brand"><span class="logo">🤸</span>吉野川ホップ体操教室</div>
+    <div class="brand"><img class="logo" src="logo.png" alt="吉野川ホップ体操教室のロゴ" width="42" height="42" />吉野川ホップ体操教室</div>
     <nav class="nav-links">
       <a href="#about">教室について</a>
       <a href="#class">クラス</a>
@@ -242,6 +245,7 @@
   <span class="hdot hd1"></span><span class="hdot hd2"></span><span class="hdot hd3"></span><span class="hdot hd4"></span>
   <div class="wrap hero-grid">
     <div class="hero-copy">
+      <img class="hero-logo" src="logo.png" alt="吉野川ホップ体操教室のロゴ" width="148" height="148" />
       <span class="ribbon">⭐ 吉野川市｜幼稚園〜小学生の体操教室</span>
       <h1>吉野川市の<br>子ども体操教室</h1>
       <p class="hero-catch">ジャンプして、<span class="brush">「できた！」</span>がふえる。</p>
@@ -442,7 +446,7 @@
   <div class="wrap grid-f">
     <div>
       <div class="brand" style="display:flex;align-items:center;gap:10px;font-family:'M PLUS Rounded 1c';font-weight:800;font-size:1.15rem">
-        <span class="logo">🤸</span>吉野川ホップ体操教室
+        <img class="logo" src="logo.png" alt="吉野川ホップ体操教室のロゴ" width="42" height="42" />吉野川ホップ体操教室
       </div>
       <p class="farea">徳島県吉野川市の幼稚園・小学生向け体操教室。吉野川市交流センター（川島町桒村2827-70）で毎週金曜に開催。石井・神山・板野・阿波・美馬エリアのお子さんが通っています。</p>
     </div>
