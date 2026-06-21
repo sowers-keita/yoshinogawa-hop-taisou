@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>吉野川の体操教室なら｜吉野川ホップ体操教室｜幼稚園・小学生の無料体験</title>
+<title>吉野川市の子ども体操教室｜吉野川ホップ体操教室｜幼稚園〜小学生・無料体験</title>
 <meta name="description" content="徳島県吉野川市の幼稚園・小学生向け体操教室。エアトランポリンマットを使って、跳び箱・前回り・側転・バク転などに安全に挑戦できます。吉野川市交流センター（川島町）で毎週金曜開催。石井・神山・板野・阿波・美馬エリア。初心者・運動が苦手でも大歓迎、無料体験受付中！" />
 <meta name="keywords" content="吉野川 体操教室,吉野川市 体操,川島町 体操,幼稚園 体操,小学生 体操,エアトランポリン,バク転,跳び箱,無料体験,徳島 体操教室,鴨島,石井" />
 <meta name="robots" content="index, follow" />
@@ -111,7 +111,8 @@
   @media(max-width:880px){.hd1,.hd2,.hd3,.hd4{display:none}}
   .ribbon{display:inline-flex;align-items:center;gap:6px;background:#fff;border:2px solid #ffd0e3;color:var(--pink-d);
     font-weight:700;font-size:.85rem;padding:8px 16px;border-radius:999px;box-shadow:var(--ring)}
-  .hero h1{font-size:clamp(1.95rem,6vw,3.3rem);font-weight:800;line-height:1.24;margin:16px 0 0}
+  .hero h1{font-size:clamp(1.5rem,4.6vw,2.5rem);font-weight:800;line-height:1.3;margin:16px 0 2px;color:var(--ink)}
+  .hero-catch{font-family:"M PLUS Rounded 1c","Noto Sans JP",sans-serif;font-weight:800;font-size:clamp(1.6rem,5.4vw,2.9rem);line-height:1.25;margin:0}
   .brush{position:relative;white-space:nowrap;z-index:1}
   .brush::after{content:"";position:absolute;left:-2px;right:-2px;bottom:.08em;height:.34em;z-index:-1;border-radius:999px;
     background:linear-gradient(90deg,#ffd36b,#ff9bbd);transform:rotate(-1deg)}
@@ -204,6 +205,17 @@
     border-top:1px solid rgba(38,49,58,.08);padding:9px 14px;display:flex;justify-content:center;box-shadow:0 -6px 20px rgba(38,49,58,.1)}
   .sticky-cta a{width:100%;max-width:460px;justify-content:center}
 
+  .faq-list{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+  .faq-item{background:#fff;border-radius:var(--round);box-shadow:var(--ring);overflow:hidden;border-top:6px solid var(--green)}
+  .faq-item:nth-child(3n+2){border-top-color:var(--pink)}
+  .faq-item:nth-child(3n){border-top-color:var(--orange)}
+  .faq-item summary{list-style:none;cursor:pointer;padding:18px 56px 18px 22px;font-family:"M PLUS Rounded 1c","Noto Sans JP",sans-serif;font-weight:800;font-size:1rem;color:var(--ink);position:relative;line-height:1.5}
+  .faq-item summary::-webkit-details-marker{display:none}
+  .faq-item summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;background:#eefaf2;color:var(--green-d);display:grid;place-items:center;font-size:1.4rem;font-weight:800}
+  .faq-item[open] summary::after{content:"–";background:#ffe7f1;color:var(--pink-d)}
+  .faq-a{padding:0 22px 20px;color:var(--muted);font-size:.95rem;line-height:1.85}
+  .faq-a b{color:var(--ink)}
+
   .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease, transform .6s ease}
   .reveal.in{opacity:1;transform:none}
 </style>
@@ -218,6 +230,7 @@
       <a href="#class">クラス</a>
       <a href="#schedule">練習日時</a>
       <a href="#access">アクセス</a>
+      <a href="#faq">よくある質問</a>
       <a class="btn line" href="https://lin.ee/UsoyBsf" target="_blank" rel="noopener">無料体験</a>
     </nav>
   </div>
@@ -230,7 +243,8 @@
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <span class="ribbon">⭐ 吉野川市｜幼稚園〜小学生の体操教室</span>
-      <h1>ジャンプして、<br><span class="brush">「できた！」</span>がふえる。</h1>
+      <h1>吉野川市の<br>子ども体操教室</h1>
+      <p class="hero-catch">ジャンプして、<span class="brush">「できた！」</span>がふえる。</p>
       <p class="sub">徳島県吉野川市の体操教室です。よく弾むエアトランポリンマットで、はじめてのお子さまも安心。一人ひとりのペースで楽しくチャレンジしながら、「できた！」と自信を増やしていきます。</p>
       <div class="cta-row">
         <a class="btn line" href="https://lin.ee/UsoyBsf" target="_blank" rel="noopener">📱 LINEで無料体験を申し込む</a>
@@ -386,6 +400,27 @@
         <a class="btn" href="https://lin.ee/UsoyBsf" target="_blank" rel="noopener">📱 LINEで無料体験を申し込む</a>
         <a class="btn alt" href="mailto:k.k_1012@me.com">✉️ メールで問い合わせる</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap center">
+    <span class="tag green">よくある質問</span>
+    <h2 class="sec-title">吉野川市の体操教室・よくある質問</h2>
+    <p class="sec-lead">気になる項目をタップすると、答えがひらきます。</p>
+  </div>
+  <div class="wrap">
+    <div class="faq-list reveal">
+      <details class="faq-item"><summary>Q. 何歳から参加できますか？</summary><div class="faq-a"><b>満3歳〜小学生のお子さまが対象です。</b> 年齢や運動経験に合わせて、無理なく参加できるクラスをご案内します。まずはお気軽にLINEでご相談ください。</div></details>
+      <details class="faq-item"><summary>Q. 運動が苦手でも大丈夫ですか？</summary><div class="faq-a"><b>はい、大丈夫です。</b> 上手・下手ではなく「楽しい！」「できた！」を大切にしています。一人ひとりのペースで、少しずつ体の使い方が身についていきます。</div></details>
+      <details class="faq-item"><summary>Q. 男の子でも女の子でも参加できますか？</summary><div class="faq-a"><b>はい、どちらも参加できます。</b> 性別に関係なく、体を動かす楽しさを大切にしています。はじめてのお子さまも大歓迎です。</div></details>
+      <details class="faq-item"><summary>Q. 休んだ場合、振替はできますか？</summary><div class="faq-a"><b>はい、振替できます。</b> お休みされた場合は、他の曜日・他の地域の教室（阿南・吉野川・北島・小松島・上板・論田）のクラスへ振り替えできます。ご都合に合わせて無理なく続けられます。</div></details>
+      <details class="faq-item"><summary>Q. 体験には何を持っていけばいいですか？</summary><div class="faq-a"><b>動きやすい服装・タオル・飲み物をお持ちください。</b> 普段着に近い動きやすい服装で大丈夫です。</div></details>
+      <details class="faq-item"><summary>Q. 保護者は見学できますか？</summary><div class="faq-a"><b>はい、見学できます。</b> お子さまの様子を見ながら、安心して体験・ご入会をご検討いただけます。会場の状況により見学スペースに限りがある場合があります。</div></details>
+      <details class="faq-item"><summary>Q. 料金について教えてください</summary><div class="faq-a"><b>料金の詳細は、LINEでお気軽にお問い合わせください。</b> ご見学・無料体験のうえ、ゆっくりご検討いただけます。</div></details>
+      <details class="faq-item"><summary>Q. 申し込み・体験予約はどうすればいいですか？</summary><div class="faq-a"><b>LINEからお気軽にどうぞ。</b> 「体験希望」と、お子さまのお名前・年齢・ご希望の曜日をお送りいただくとスムーズにご案内できます。</div></details>
     </div>
   </div>
 </section>
